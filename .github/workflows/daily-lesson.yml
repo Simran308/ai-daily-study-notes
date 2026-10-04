@@ -27,6 +27,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           STUDY_TZ: America/Chicago
+          STUDY_MODEL: ${{ vars.STUDY_MODEL || 'claude-opus-5-5' }}
         run: python scripts/generate_lesson.py
 
       - name: Commit lesson

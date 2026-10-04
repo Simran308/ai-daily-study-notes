@@ -104,7 +104,7 @@ python scripts/generate_lesson.py
 - **Level**: change "intermediate" at the top of `SKILL.md`.
 - **Topics**: edit `references/curriculum.md`.
 - **Rotation**: edit the weekly table in `SKILL.md`.
-- **Model**: set the `STUDY_MODEL` env var (default `claude-opus-5-5`).
+- **Model**: add a repository variable `STUDY_MODEL` (Settings → Secrets and variables → Actions → Variables), e.g. `claude-sonnet-5-5` for lower cost. Default: `claude-opus-5-5`.
 
 ## License
 
