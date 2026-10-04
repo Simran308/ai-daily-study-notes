@@ -157,13 +157,37 @@ def save(lesson: str, now: datetime, progress: dict) -> Path:
     return path
 
 
+def write_workflow_outputs(path: Path, lesson: str) -> None:
+    """Tell the workflow which lesson to post as an issue."""
+    out = os.environ.get("GITHUB_OUTPUT")
+    if not out:
+        return
+    title = parse_frontmatter(lesson).get("topic", path.stem)
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    link = f"\n\n---\n📄 [Open this lesson in the repo](https://github.com/{repo}/blob/main/{path.relative_to(ROOT)})\n"
+    issue_body = ROOT / "issue_body.md"  # untracked; frontmatter stripped so the issue renders cleanly
+    issue_body.write_text(strip_frontmatter(lesson).strip() + link)
+    with open(out, "a") as f:
+        f.write(f"lesson_path={path.relative_to(ROOT)}\nlesson_title={title}\nissue_body={issue_body.name}\n")
+
+
 def main() -> None:
+    progress = json.loads(PROGRESS.read_text()) if PROGRESS.exists() else {"lessons": []}
+
+    if os.environ.get("RESEND_LATEST") == "true":
+        # Preview mode: post the newest existing lesson again, without calling Claude.
+        if not progress.get("lessons"):
+            sys.exit("No lessons yet to re-send.")
+        path = ROOT / progress["lessons"][-1]["file"]
+        write_workflow_outputs(path, path.read_text())
+        print(f"Re-sending {path.relative_to(ROOT)}")
+        return
+
     if not os.environ.get("ANTHROPIC_API_KEY"):
         print("::notice::ANTHROPIC_API_KEY is not set, so no lesson was generated. See README → GitHub Action.")
         return
 
     now = datetime.now(TZ)
-    progress = json.loads(PROGRESS.read_text()) if PROGRESS.exists() else {"lessons": []}
     if any(l["date"] == f"{now:%Y-%m-%d}" for l in progress.get("lessons", [])):
         print("A lesson for today already exists; nothing to do.")
         return
@@ -172,16 +196,7 @@ def main() -> None:
     lesson = lesson[lesson.find("---"):] if "---" in lesson else lesson
     path = save(lesson, now, progress)
     print(f"Saved {path.relative_to(ROOT)}")
-
-    # Tell the workflow which file to post as today's issue.
-    if out := os.environ.get("GITHUB_OUTPUT"):
-        title = parse_frontmatter(lesson).get("topic", path.stem)
-        repo = os.environ.get("GITHUB_REPOSITORY", "")
-        link = f"\n\n---\n📄 [Open this lesson in the repo](https://github.com/{repo}/blob/main/{path.relative_to(ROOT)})\n"
-        issue_body = ROOT / "issue_body.md"  # untracked; frontmatter stripped so the issue renders cleanly
-        issue_body.write_text(strip_frontmatter(lesson).strip() + link)
-        with open(out, "a") as f:
-            f.write(f"lesson_path={path.relative_to(ROOT)}\nlesson_title={title}\nissue_body={issue_body.name}\n")
+    write_workflow_outputs(path, lesson)
 
 
 if __name__ == "__main__":

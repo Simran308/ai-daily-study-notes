@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 13 * * *" # 13:00 UTC = 8:00 AM Chicago (CDT); 7:00 AM in winter
   workflow_dispatch: # lets you run it by hand from the Actions tab
+    inputs:
+      resend_latest:
+        description: "Preview: re-send the latest lesson as an Issue (free, no new lesson)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -28,10 +33,11 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           STUDY_TZ: America/Chicago
           STUDY_MODEL: ${{ vars.STUDY_MODEL || 'claude-opus-5-5' }}
+          RESEND_LATEST: ${{ inputs.resend_latest }}
         run: python scripts/generate_lesson.py
 
       - name: Commit lesson
-        if: steps.gen.outputs.lesson_path != ''
+        if: steps.gen.outputs.lesson_path != '' && !inputs.resend_latest
         run: |
           git config user.name "ai-daily-study[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
