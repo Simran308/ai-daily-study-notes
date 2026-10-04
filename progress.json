@@ -1,7 +1,33 @@
 {
   "learner_level": "intermediate",
   "lessons": [
-    {"date": "2026-10-03", "track": "tech-stack", "topic": "Tokens, context windows and pricing", "slug": "tokens-context-windows-pricing",
-     "file": "lessons/2026-10-03-tokens-context-windows-pricing.md", "tags": ["llm", "tokens", "pricing", "context-window", "foundations"]}
+    {
+      "date": "2026-10-03",
+      "track": "tech-stack",
+      "topic": "Tokens, context windows and pricing",
+      "slug": "tokens-context-windows-pricing",
+      "file": "lessons/2026-10-03-tokens-context-windows-pricing.md",
+      "tags": [
+        "llm",
+        "tokens",
+        "pricing",
+        "context-window",
+        "foundations"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "track": "tech-stack",
+      "topic": "Prompt engineering that still matters",
+      "slug": "prompt-engineering-that-still-matters",
+      "file": "lessons/2026-10-04-prompt-engineering-that-still-matters.md",
+      "tags": [
+        "prompting",
+        "system-prompt",
+        "few-shot",
+        "xml",
+        "foundations"
+      ]
+    }
   ]
 }
