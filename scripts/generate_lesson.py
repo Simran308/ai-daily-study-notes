@@ -176,8 +176,12 @@ def main() -> None:
     # Tell the workflow which file to post as today's issue.
     if out := os.environ.get("GITHUB_OUTPUT"):
         title = parse_frontmatter(lesson).get("topic", path.stem)
+        repo = os.environ.get("GITHUB_REPOSITORY", "")
+        link = f"\n\n---\n📄 [Open this lesson in the repo](https://github.com/{repo}/blob/main/{path.relative_to(ROOT)})\n"
+        issue_body = ROOT / "issue_body.md"  # untracked; frontmatter stripped so the issue renders cleanly
+        issue_body.write_text(strip_frontmatter(lesson).strip() + link)
         with open(out, "a") as f:
-            f.write(f"lesson_path={path.relative_to(ROOT)}\nlesson_title={title}\n")
+            f.write(f"lesson_path={path.relative_to(ROOT)}\nlesson_title={title}\nissue_body={issue_body.name}\n")
 
 
 if __name__ == "__main__":

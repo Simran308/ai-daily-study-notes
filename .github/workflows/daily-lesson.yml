@@ -47,6 +47,6 @@ jobs:
           gh label create daily-lesson --color 5319e7 2>/dev/null || true
           gh issue create \
             --title "📚 $(date +%F): ${{ steps.gen.outputs.lesson_title }}" \
-            --body-file "${{ steps.gen.outputs.lesson_path }}" \
+            --body-file "${{ steps.gen.outputs.issue_body }}" \
             --label daily-lesson \
             --assignee "${{ github.repository_owner }}"
