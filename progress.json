@@ -1,0 +1,7 @@
+{
+  "learner_level": "intermediate",
+  "lessons": [
+    {"date": "2026-10-03", "track": "tech-stack", "topic": "Tokens, context windows and pricing", "slug": "tokens-context-windows-pricing",
+     "file": "lessons/2026-10-03-tokens-context-windows-pricing.md", "tags": ["llm", "tokens", "pricing", "context-window", "foundations"]}
+  ]
+}
