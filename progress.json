@@ -28,6 +28,21 @@
         "xml",
         "foundations"
       ]
+    },
+    {
+      "date": "2026-10-05",
+      "track": "new-models",
+      "topic": "GPT-6.1 Sol, a near-flagship model at a fifth of the price",
+      "slug": "gpt-6-1-sol",
+      "file": "lessons/2026-10-05-gpt-6-1-sol.md",
+      "tags": [
+        "llm",
+        "openai",
+        "reasoning",
+        "pricing",
+        "agents",
+        "responses-api"
+      ]
     }
   ]
 }
