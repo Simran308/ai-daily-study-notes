@@ -43,6 +43,22 @@
         "agents",
         "responses-api"
       ]
+    },
+    {
+      "date": "2026-10-07",
+      "track": "build-it",
+      "topic": "Build an effort-vs-cost benchmark for GPT-6.1 Sol",
+      "slug": "effort-vs-cost-bench",
+      "file": "lessons/2026-10-07-effort-vs-cost-bench.md",
+      "tags": [
+        "build-it",
+        "evals",
+        "reasoning",
+        "pricing",
+        "prompting",
+        "responses-api",
+        "gpt-6-1-sol"
+      ]
     }
   ]
 }
