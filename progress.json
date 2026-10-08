@@ -59,6 +59,21 @@
         "responses-api",
         "gpt-6-1-sol"
       ]
+    },
+    {
+      "date": "2026-10-08",
+      "track": "new-models",
+      "topic": "Claude Haiku 5.5 and the 100k-token price cliff",
+      "slug": "claude-haiku-5-5",
+      "file": "lessons/2026-10-08-claude-haiku-5-5.md",
+      "tags": [
+        "llm",
+        "anthropic",
+        "pricing",
+        "small-models",
+        "sub-agents",
+        "mistral"
+      ]
     }
   ]
 }
