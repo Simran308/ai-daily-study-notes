@@ -74,6 +74,22 @@
         "sub-agents",
         "mistral"
       ]
+    },
+    {
+      "date": "2026-10-09",
+      "track": "use-cases",
+      "topic": "How Stripe's Minions turn a Slack message into a pull request",
+      "slug": "stripe-minions-unattended-coding-agents",
+      "file": "lessons/2026-10-09-stripe-minions-unattended-coding-agents.md",
+      "tags": [
+        "use-cases",
+        "agents",
+        "coding-agents",
+        "mcp",
+        "sandboxing",
+        "tool-curation",
+        "stripe"
+      ]
     }
   ]
 }
