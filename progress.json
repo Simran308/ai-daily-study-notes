@@ -90,6 +90,21 @@
         "tool-curation",
         "stripe"
       ]
+    },
+    {
+      "date": "2026-10-10",
+      "track": "review",
+      "topic": "Saturday review, 8 cards from the first week",
+      "slug": "review",
+      "file": "lessons/2026-10-10-review.md",
+      "tags": [
+        "review",
+        "spaced-repetition",
+        "tokens",
+        "prompting",
+        "reasoning",
+        "agents"
+      ]
     }
   ]
 }
