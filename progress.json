@@ -105,6 +105,21 @@
         "reasoning",
         "agents"
       ]
+    },
+    {
+      "date": "2026-10-11",
+      "track": "recap",
+      "topic": "Weekly recap, the real cost of a task and the scaffolding around agents",
+      "slug": "weekly-recap",
+      "file": "lessons/2026-10-11-weekly-recap.md",
+      "tags": [
+        "recap",
+        "pricing",
+        "reasoning",
+        "small-models",
+        "agents",
+        "evals"
+      ]
     }
   ]
 }

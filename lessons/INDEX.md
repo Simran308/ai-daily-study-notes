@@ -2,6 +2,7 @@
 
 | Date | Track | Lesson |
 |---|---|---|
+| 2026-10-11 | 📅 Recap | [Weekly recap, the real cost of a task and the scaffolding around agents](2026-10-11-weekly-recap.md) |
 | 2026-10-10 | 🔁 Review | [Saturday review, 8 cards from the first week](2026-10-10-review.md) |
 | 2026-10-09 | 💼 Use Cases | [How Stripe's Minions turn a Slack message into a pull request](2026-10-09-stripe-minions-unattended-coding-agents.md) |
 | 2026-10-08 | 🆕 New Models | [Claude Haiku 5.5 and the 100k-token price cliff](2026-10-08-claude-haiku-5-5.md) |
