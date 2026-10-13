@@ -120,6 +120,20 @@
         "agents",
         "evals"
       ]
+    },
+    {
+      "date": "2026-10-13",
+      "track": "tech-stack",
+      "topic": "Structured outputs and JSON schemas",
+      "slug": "structured-outputs-json-schemas",
+      "file": "lessons/2026-10-13-structured-outputs-json-schemas.md",
+      "tags": [
+        "structured-outputs",
+        "json-schema",
+        "pydantic",
+        "foundations",
+        "tool-use"
+      ]
     }
   ]
 }
