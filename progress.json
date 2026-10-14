@@ -134,6 +134,21 @@
         "foundations",
         "tool-use"
       ]
+    },
+    {
+      "date": "2026-10-14",
+      "track": "build-it",
+      "topic": "Build a ticket-triage eval with schema-enforced output and cost per correct answer",
+      "slug": "ticket-triage-eval-bench",
+      "file": "lessons/2026-10-14-ticket-triage-eval-bench.md",
+      "tags": [
+        "build-it",
+        "structured-outputs",
+        "evals",
+        "pricing",
+        "pydantic",
+        "claude-haiku-5-5"
+      ]
     }
   ]
 }

@@ -2,6 +2,7 @@
 
 | Date | Track | Lesson |
 |---|---|---|
+| 2026-10-14 | 🛠️ Build It | [Build a ticket-triage eval with schema-enforced output and cost per correct answer](2026-10-14-ticket-triage-eval-bench.md) |
 | 2026-10-13 | 🧱 Tech Stack | [Structured outputs and JSON schemas](2026-10-13-structured-outputs-json-schemas.md) |
 | 2026-10-11 | 📅 Recap | [Weekly recap, the real cost of a task and the scaffolding around agents](2026-10-11-weekly-recap.md) |
 | 2026-10-10 | 🔁 Review | [Saturday review, 8 cards from the first week](2026-10-10-review.md) |
