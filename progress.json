@@ -149,6 +149,21 @@
         "pydantic",
         "claude-haiku-5-5"
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "track": "new-models",
+      "topic": "Meta Muse Wonder, a 1M-context agent model you can only rent",
+      "slug": "muse-wonder",
+      "file": "lessons/2026-10-15-muse-wonder.md",
+      "tags": [
+        "llm",
+        "meta",
+        "agents",
+        "pricing",
+        "closed-weights",
+        "long-context"
+      ]
     }
   ]
 }
