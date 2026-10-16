@@ -164,6 +164,22 @@
         "closed-weights",
         "long-context"
       ]
+    },
+    {
+      "date": "2026-10-16",
+      "track": "use-cases",
+      "topic": "One gateway, act as the user, log everything, the access pattern behind production agents",
+      "slug": "agent-gateway-act-as-the-user",
+      "file": "lessons/2026-10-16-agent-gateway-act-as-the-user.md",
+      "tags": [
+        "use-cases",
+        "agents",
+        "mcp",
+        "security",
+        "access-control",
+        "airbnb",
+        "rippling"
+      ]
     }
   ]
 }
