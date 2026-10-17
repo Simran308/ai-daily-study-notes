@@ -180,6 +180,22 @@
         "airbnb",
         "rippling"
       ]
+    },
+    {
+      "date": "2026-10-17",
+      "track": "review",
+      "topic": "Saturday review, 8 cards from weeks one and two",
+      "slug": "review",
+      "file": "lessons/2026-10-17-review.md",
+      "tags": [
+        "review",
+        "spaced-repetition",
+        "pricing",
+        "reasoning",
+        "agents",
+        "structured-outputs",
+        "evals"
+      ]
     }
   ]
 }
