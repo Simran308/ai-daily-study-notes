@@ -196,6 +196,21 @@
         "structured-outputs",
         "evals"
       ]
+    },
+    {
+      "date": "2026-10-18",
+      "track": "recap",
+      "topic": "Weekly recap, guarantees you can check and rules you can enforce",
+      "slug": "weekly-recap",
+      "file": "lessons/2026-10-18-weekly-recap.md",
+      "tags": [
+        "recap",
+        "structured-outputs",
+        "evals",
+        "pricing",
+        "agents",
+        "security"
+      ]
     }
   ]
 }

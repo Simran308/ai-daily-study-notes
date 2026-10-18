@@ -2,6 +2,7 @@
 
 | Date | Track | Lesson |
 |---|---|---|
+| 2026-10-18 | 📅 Recap | [Weekly recap, guarantees you can check and rules you can enforce](2026-10-18-weekly-recap.md) |
 | 2026-10-17 | 🔁 Review | [Saturday review, 8 cards from weeks one and two](2026-10-17-review.md) |
 | 2026-10-16 | 💼 Use Cases | [One gateway, act as the user, log everything, the access pattern behind production agents](2026-10-16-agent-gateway-act-as-the-user.md) |
 | 2026-10-15 | 🆕 New Models | [Meta Muse Wonder, a 1M-context agent model you can only rent](2026-10-15-muse-wonder.md) |
