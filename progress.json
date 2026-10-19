@@ -211,6 +211,22 @@
         "agents",
         "security"
       ]
+    },
+    {
+      "date": "2026-10-19",
+      "track": "new-models",
+      "topic": "DeepSeek V4.1 Flash 1017, an MIT-licensed 1M-context agent model at $0.15 per 1M input tokens",
+      "slug": "deepseek-v4-1-flash-1017",
+      "file": "lessons/2026-10-19-deepseek-v4-1-flash-1017.md",
+      "tags": [
+        "llm",
+        "open-weights",
+        "deepseek",
+        "pricing",
+        "agents",
+        "long-context",
+        "mit-license"
+      ]
     }
   ]
 }
