@@ -2,6 +2,7 @@
 
 | Date | Track | Lesson |
 |---|---|---|
+| 2026-10-20 | 🧱 Tech Stack | [Tool use and function calling, the loop behind every agent](2026-10-20-tool-use-function-calling-loop.md) |
 | 2026-10-19 | 🆕 New Models | [DeepSeek V4.1 Flash 1017, an MIT-licensed 1M-context agent model at $0.15 per 1M input tokens](2026-10-19-deepseek-v4-1-flash-1017.md) |
 | 2026-10-18 | 📅 Recap | [Weekly recap, guarantees you can check and rules you can enforce](2026-10-18-weekly-recap.md) |
 | 2026-10-17 | 🔁 Review | [Saturday review, 8 cards from weeks one and two](2026-10-17-review.md) |

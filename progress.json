@@ -227,6 +227,22 @@
         "long-context",
         "mit-license"
       ]
+    },
+    {
+      "date": "2026-10-20",
+      "track": "tech-stack",
+      "topic": "Tool use and function calling, the loop behind every agent",
+      "slug": "tool-use-function-calling-loop",
+      "file": "lessons/2026-10-20-tool-use-function-calling-loop.md",
+      "tags": [
+        "tool-use",
+        "function-calling",
+        "agents",
+        "claude",
+        "openai",
+        "responses-api",
+        "foundations"
+      ]
     }
   ]
 }
