@@ -259,6 +259,24 @@
         "langsmith",
         "numan"
       ]
+    },
+    {
+      "date": "2026-10-24",
+      "track": "review",
+      "topic": "Saturday review, 8 cards from weeks one to three",
+      "slug": "review",
+      "file": "lessons/2026-10-24-review.md",
+      "tags": [
+        "review",
+        "spaced-repetition",
+        "tokens",
+        "prompting",
+        "reasoning",
+        "agents",
+        "structured-outputs",
+        "tool-use",
+        "caching"
+      ]
     }
   ]
 }
