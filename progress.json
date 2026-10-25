@@ -277,6 +277,22 @@
         "tool-use",
         "caching"
       ]
+    },
+    {
+      "date": "2026-10-25",
+      "track": "recap",
+      "topic": "Weekly recap, your code runs the loop and your own numbers decide",
+      "slug": "weekly-recap",
+      "file": "lessons/2026-10-25-weekly-recap.md",
+      "tags": [
+        "recap",
+        "tool-use",
+        "pricing",
+        "caching",
+        "evals",
+        "agents",
+        "open-weights"
+      ]
     }
   ]
 }
