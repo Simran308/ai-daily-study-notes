@@ -293,6 +293,22 @@
         "agents",
         "open-weights"
       ]
+    },
+    {
+      "date": "2026-10-26",
+      "track": "new-models",
+      "topic": "Mistral Large 4, a 1T-parameter open-weights model whose weights are due this week",
+      "slug": "mistral-large-4-weights-incoming",
+      "file": "lessons/2026-10-26-mistral-large-4-weights-incoming.md",
+      "tags": [
+        "llm",
+        "open-weights",
+        "mistral",
+        "moe",
+        "self-hosting",
+        "pricing",
+        "multimodal"
+      ]
     }
   ]
 }
