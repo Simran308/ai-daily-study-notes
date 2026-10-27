@@ -309,6 +309,21 @@
         "pricing",
         "multimodal"
       ]
+    },
+    {
+      "date": "2026-10-27",
+      "track": "tech-stack",
+      "topic": "Streaming responses",
+      "slug": "streaming-responses",
+      "file": "lessons/2026-10-27-streaming-responses.md",
+      "tags": [
+        "streaming",
+        "sse",
+        "latency",
+        "ttft",
+        "tool-use",
+        "foundations"
+      ]
     }
   ]
 }

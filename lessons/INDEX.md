@@ -2,6 +2,7 @@
 
 | Date | Track | Lesson |
 |---|---|---|
+| 2026-10-27 | 🧱 Tech Stack | [Streaming responses](2026-10-27-streaming-responses.md) |
 | 2026-10-26 | 🆕 New Models | [Mistral Large 4, a 1T-parameter open-weights model whose weights are due this week](2026-10-26-mistral-large-4-weights-incoming.md) |
 | 2026-10-25 | 📅 Recap | [Weekly recap, your code runs the loop and your own numbers decide](2026-10-25-weekly-recap.md) |
 | 2026-10-24 | 🔁 Review | [Saturday review, 8 cards from weeks one to three](2026-10-24-review.md) |
