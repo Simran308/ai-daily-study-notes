@@ -324,6 +324,21 @@
         "tool-use",
         "foundations"
       ]
+    },
+    {
+      "date": "2026-10-28",
+      "track": "build-it",
+      "topic": "Build a streaming support agent with a turn cap, time to first token and cost per run",
+      "slug": "streaming-agent-loop-ttft-cost",
+      "file": "lessons/2026-10-28-streaming-agent-loop-ttft-cost.md",
+      "tags": [
+        "build-it",
+        "streaming",
+        "tool-use",
+        "agents",
+        "pricing",
+        "claude-haiku-5-5"
+      ]
     }
   ]
 }
