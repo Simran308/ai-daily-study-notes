@@ -339,6 +339,22 @@
         "pricing",
         "claude-haiku-5-5"
       ]
+    },
+    {
+      "date": "2026-10-30",
+      "track": "use-cases",
+      "topic": "Duolingo's shared agent platform, define the agent once and let the platform do the plumbing",
+      "slug": "duolingo-agent-platform",
+      "file": "lessons/2026-10-30-duolingo-agent-platform.md",
+      "tags": [
+        "use-cases",
+        "agents",
+        "platform-engineering",
+        "evals",
+        "llm-gateway",
+        "temporal",
+        "duolingo"
+      ]
     }
   ]
 }
