@@ -355,6 +355,22 @@
         "temporal",
         "duolingo"
       ]
+    },
+    {
+      "date": "2026-11-01",
+      "track": "recap",
+      "topic": "Weekly recap, measure every run and read the fine print",
+      "slug": "weekly-recap",
+      "file": "lessons/2026-11-01-weekly-recap.md",
+      "tags": [
+        "recap",
+        "streaming",
+        "agents",
+        "open-weights",
+        "evals",
+        "pricing",
+        "platform-engineering"
+      ]
     }
   ]
 }

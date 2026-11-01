@@ -2,6 +2,7 @@
 
 | Date | Track | Lesson |
 |---|---|---|
+| 2026-11-01 | 📅 Recap | [Weekly recap, measure every run and read the fine print](2026-11-01-weekly-recap.md) |
 | 2026-10-30 | 💼 Use Cases | [Duolingo's shared agent platform, define the agent once and let the platform do the plumbing](2026-10-30-duolingo-agent-platform.md) |
 | 2026-10-28 | 🛠️ Build It | [Build a streaming support agent with a turn cap, time to first token and cost per run](2026-10-28-streaming-agent-loop-ttft-cost.md) |
 | 2026-10-27 | 🧱 Tech Stack | [Streaming responses](2026-10-27-streaming-responses.md) |
