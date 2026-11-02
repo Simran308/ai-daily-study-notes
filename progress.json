@@ -371,6 +371,22 @@
         "pricing",
         "platform-engineering"
       ]
+    },
+    {
+      "date": "2026-11-02",
+      "track": "new-models",
+      "topic": "NVIDIA Dory 1.0 4B, a looped model that thinks by re-running its own layers",
+      "slug": "nvidia-dory-looped-4b",
+      "file": "lessons/2026-11-02-nvidia-dory-looped-4b.md",
+      "tags": [
+        "llm",
+        "open-weights",
+        "nvidia",
+        "small-models",
+        "reasoning",
+        "inference-compute",
+        "openmdw"
+      ]
     }
   ]
 }
