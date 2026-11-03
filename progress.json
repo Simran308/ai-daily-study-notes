@@ -387,6 +387,21 @@
         "inference-compute",
         "openmdw"
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "track": "tech-stack",
+      "topic": "Prompt caching, cutting cost and latency",
+      "slug": "prompt-caching",
+      "file": "lessons/2026-11-03-prompt-caching.md",
+      "tags": [
+        "caching",
+        "pricing",
+        "latency",
+        "claude",
+        "openai",
+        "foundations"
+      ]
     }
   ]
 }
