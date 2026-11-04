@@ -402,6 +402,21 @@
         "openai",
         "foundations"
       ]
+    },
+    {
+      "date": "2026-11-04",
+      "track": "build-it",
+      "topic": "Build a cache A/B benchmark for Claude Haiku 5.5 that reads its own bill",
+      "slug": "cache-ab-bench",
+      "file": "lessons/2026-11-04-cache-ab-bench.md",
+      "tags": [
+        "build-it",
+        "caching",
+        "pricing",
+        "evals",
+        "claude-haiku-5-5",
+        "usage"
+      ]
     }
   ]
 }
