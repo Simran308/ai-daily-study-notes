@@ -417,6 +417,23 @@
         "claude-haiku-5-5",
         "usage"
       ]
+    },
+    {
+      "date": "2026-11-05",
+      "track": "new-models",
+      "topic": "Kimi K3.1 Pro open weights, a 2.8T-parameter model you can download and the licence line that decides if you can use it",
+      "slug": "kimi-k3-1-pro-open-weights",
+      "file": "lessons/2026-11-05-kimi-k3-1-pro-open-weights.md",
+      "tags": [
+        "llm",
+        "open-weights",
+        "moonshot",
+        "kimi",
+        "moe",
+        "licensing",
+        "self-hosting",
+        "pricing"
+      ]
     }
   ]
 }

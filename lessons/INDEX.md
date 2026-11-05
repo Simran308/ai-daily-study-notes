@@ -2,6 +2,7 @@
 
 | Date | Track | Lesson |
 |---|---|---|
+| 2026-11-05 | 🆕 New Models | [Kimi K3.1 Pro open weights, a 2.8T-parameter model you can download and the licence line that decides if you can use it](2026-11-05-kimi-k3-1-pro-open-weights.md) |
 | 2026-11-04 | 🛠️ Build It | [Build a cache A/B benchmark for Claude Haiku 5.5 that reads its own bill](2026-11-04-cache-ab-bench.md) |
 | 2026-11-03 | 🧱 Tech Stack | [Prompt caching, cutting cost and latency](2026-11-03-prompt-caching.md) |
 | 2026-11-02 | 🆕 New Models | [NVIDIA Dory 1.0 4B, a looped model that thinks by re-running its own layers](2026-11-02-nvidia-dory-looped-4b.md) |
